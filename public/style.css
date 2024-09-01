@@ -1,34 +1,77 @@
-.border {
+/* .border {
   border-style: solid;
   border-width: 1px;
   margin: 10px;
-}
+} */
 
-#sampleui {
+/* #sampleui {
   max-width: 450px;
   margin-left: 5%;
   height: 100%;
-}
+} */
 
-#sampleposting {
-  max-width: 450px;
+#detailComments {
+  max-width: 325px;
   text-align: center;
-  margin-left: 5%;
+/*   margin-left: 5%; */
 }
 
-#userstories {
+/* #userstories {
   margin-left: 5%;
-}
+} */
 
-form {
+/* form {
   padding: 5px;
-}
+} */
 
 label {
   display: block;
   font-weight: bold;
 }
 
-input {
+/* input {
   margin-bottom: 5px;
+} */
+/****** Main Styling ******/
+
+body {
+  background-color: #a9b4c2;
+  text-align: center;
+}
+
+.display-1 {
+  color: white;
+}
+
+.display-5 {
+  font-size: 2rem;
+}
+
+.display-6 {
+  font-size: 1.5rem;
+  text-decoration: none;
+}
+
+.card {
+  border: none;
+  background-color: white;
+}
+
+h3 {
+  margin-top: 15px;
+}
+
+code {
+  font-family: monospace;
+  padding: 2px;
+  color: black;
+  background-color: #fff;
+}
+
+ul {
+  list-style-type: none;
+}
+
+a {
+  color: #2574a9;
 }
